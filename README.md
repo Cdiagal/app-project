@@ -17,7 +17,7 @@ TaskYourself es una aplicación intuitiva y eficiente diseñada para ayudar a lo
 | **Caso de Uso: Crear tarea**                | El usuario crea una o varias tarea.                                                              |
 | **Caso de Uso: Modificar tarea**            | Permite al Usuario modificar una o varias tareas.                                                |
 | **Caso de Uso: Eliminar tarea**             | El ususario puede eliminar una o varias tareas.                                                  |
-| **Caso de Uso: Mardador**                   | El ususario puede marcar tareas completadas o pendientes.                                        |
+| **Caso de Uso: Marcador**                   | El ususario puede marcar tareas completadas o pendientes.                                        |
 | **Caso de Uso: Recordatorio**               | El usuario puede configurar un nuevo recordatorio.                                               |
 | **Caso de Uso: Notificación**               | El sistema envía una notificación al usuario.                                                    |
 
