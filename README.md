@@ -34,5 +34,25 @@ TaskYourself es una aplicación intuitiva y eficiente diseñada para ayudar a lo
 | **Usuario → Recordatorio**   | Asociación: El usuario interactua con el sistema para configurar un recordatorio.                        |
 | **Sistema → Notifica**       | Inclusión: Se activa una notificación cuando el usuario modifica o crea un recordatorio.                 |
 
+## **Definición de actores y Operaciones**
+
+### **Actores**
+
+| **Actores** | **Definición** |
+|-------------|-----------------------------------------------------------------------|
+| **Usuario** | Persona que utiliza la aplicación para gestionar sus tareas diarias.|
+| **Sistema** | Almacena datos de las tareas y envía notificaciones. |
+| **Administrador** | Responsable de la administración general de la app. |
+
+---
+
+### **Operaciones**
+
+| **Actores** | **Operaciones**|
+|-------------|---------------------------------------------|
+| → **Usuario** | - **Crear tarea**: permite al usuario crear una nueva tarea personalizada con diferentes atributos. <br> - **Modificar una tarea:** permite al usuario interactuar con la tarea para editar los atributos configurados, añadirle o quitarle. <br> - **Eliminar tarea:** permite al usuario eliminar una o varias tareas de la lista. <br> - **Marcar tarea:** permite al usuario tareas pendientes o completadas, ayudando a organizar las tareas. <br> - **Configurar recordatorio:** permite al usuario activar o modificar recordatorios sobre tareas de la lista. <br>|
+|||
+| → **Administrador**|
+
 
 </div>
