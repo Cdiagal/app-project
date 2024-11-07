@@ -35,4 +35,15 @@ TaskYourself es una aplicación intuitiva y eficiente diseñada para ayudar a lo
 | **Sistema → Notifica**       | Inclusión: Se activa una notificación cuando el usuario modifica o crea un recordatorio.                 |
 
 
+---
+
+## **Especificación de Actores y Operaciones**
+
+
+
+
+
+
+
+
 </div>
