@@ -58,7 +58,7 @@ TaskYourself es una aplicación intuitiva y eficiente diseñada para ayudar a lo
 | → **Administrador**| - **Gestionar usuarios:** Permite al aministrador editar, crear, eliminar o bloquear cuentas de usuarios. <br> - **Ver estadísticas y datos:** permite al administrador hacer un estudio de uso y comportamientos de los usuarios con la app. <br> - **Configuración del sistema:** permite al administrador gestionar y hacer configuraciones avanzadas y necesarias del sistema. <br> - **Gestionar permisos:** permite al administrador hacer uso de la política de la app, bloqueando o desbloqueando opciones. <br> - **Seguimiento de seguridad:** el administrador actúa haciendo un seguimiento de las opciones de la app y el comportamiento de uso, pudiendo detectar o reparar riesgos de seguridad. |
 |  |   |
 | → **Sistema** | - **Almacena datos:** almacena toda la información de datos, actividad y detalles de todo el movimiento que se registra en la app. <br> - **Actualizar las tareas:** actualiza en todo momento las tareas de los usuarios. <br> - **Sincroniza datos:** el sistema detecta modificaciones o creaciones y automáticamente sincroniza toda la información. <br> - **Estadísticas:** genera estadísticas a partir de la información almacenada del usuario. <br> - **Envía notificaciones:** envía notificaciones personalizadas a los usuarios.  | 
-|||
+||| 
 
 
 
