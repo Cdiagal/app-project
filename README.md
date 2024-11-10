@@ -61,8 +61,4 @@ TaskYourself es una aplicación intuitiva y eficiente diseñada para ayudar a lo
 |||
 
 
-
-
-
-
 </div>
