@@ -13,6 +13,7 @@ TaskYourself es una aplicación intuitiva y eficiente diseñada para ayudar a lo
 | Elemento                            | Descripción     
 |---|---|
 | **Actor: Usuario**                          | El usuario crea y gestiona sus tareas.|
+| **Actor: Administrador**                    | El Administrador, administra usuarios, permisos y configuraciones en la `app`.|
 | **Actor: Sistema**                          | Guarda todos los datos y las tareas.|
 | **Caso de Uso: Crear tarea**                | El usuario crea una o varias tarea. |
 | **Caso de Uso: Modificar tarea**            | Permite al Usuario modificar una o varias tareas.|
@@ -20,6 +21,11 @@ TaskYourself es una aplicación intuitiva y eficiente diseñada para ayudar a lo
 | **Caso de Uso: Marcador**                   | El ususario puede marcar tareas completadas o pendientes.|
 | **Caso de Uso: Recordatorio**               | El usuario puede configurar un nuevo recordatorio.|
 | **Caso de Uso: Notificación**               | El sistema envía una notificación al usuario.                                                    |
+| **Caso de Uso: Gestión de usuarios**        | El Administrador modifica a los usuarios (crear, editar, bloquear, eliminar).           |
+| **Caso de Uso: Ver estadísticas**               | El Administrador puede ver las estadísticas de la app.                                                    |
+| **Caso de Uso: Gestión de permisos**               | Misma funcion que la gestión de usuarios, pero referente a los permisos sobre ellos.                                                    |
+| **Caso de Uso: Configuración del Sistema**               | El Administrador realiza configuraciones avanzadas.                                                    |
+| **Caso de Uso: Gestión de la seguridad**               | El Administrador realiza una gestión de seguimiento sobre la seguridad de la `app`.usuario.                                                    |
 
 ---
 
@@ -32,6 +38,11 @@ TaskYourself es una aplicación intuitiva y eficiente diseñada para ayudar a lo
 | **Usuario → Eliminar tarea** | Asociación: El usuario interactua con el sistema para eliminar la tarea.                                 |
 | **Usuario → Marcar tarea**   | Asociación: El usuario interactua con el sistema para marcar la tarea completada o pendiente.            |
 | **Usuario → Recordatorio**   | Asociación: El usuario interactua con el sistema para configurar un recordatorio.                        |
+| **Administrador → Gestionar ususarios.**   | Asociación: El administrador interactúa con el Sistema para gestionar los ususairos.                        |
+| **Administrador → Gestionar permisos.**   | Asociación: El administrador interactúa con el Sistema para gestionar los permisos de los usuarios.    |
+| **Administrador → Ver estadísticas.**   | Asociación: El administrador interactúa con el Sistema para consultar estadísticas y datos del uso de la `app`.    |
+| **Administrador → Configar el Sistema.**   | Asociación: El administrador realiza gestiones y configuraciones del Sistema.    |
+| **Administrador → Monitorear la seguridad.**   | Asociación: El administrador interactúa con el Sistema para buscar fallas o brechas de seguridad.    |
 | **Sistema → Notifica**       | Inclusión: Se activa una notificación cuando el usuario modifica o crea un recordatorio.                 |
 
 
@@ -59,6 +70,10 @@ TaskYourself es una aplicación intuitiva y eficiente diseñada para ayudar a lo
 |  |   |
 | → **Sistema** | - **Almacena datos:** almacena toda la información de datos, actividad y detalles de todo el movimiento que se registra en la app. <br> - **Actualizar las tareas:** actualiza en todo momento las tareas de los usuarios. <br> - **Sincroniza datos:** el sistema detecta modificaciones o creaciones y automáticamente sincroniza toda la información. <br> - **Estadísticas:** genera estadísticas a partir de la información almacenada del usuario. <br> - **Envía notificaciones:** envía notificaciones personalizadas a los usuarios.  | 
 |||
+
+
+
+
 
 
 </div>
