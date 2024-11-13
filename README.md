@@ -9,6 +9,14 @@ TaskYourself es una aplicación intuitiva y eficiente diseñada para ayudar a lo
 
 ---
 
+## **Diagrama de Casos de uso**
+<br>
+<br>
+<img src="images/casos de uso Taskyourself.drawio.png">
+<br>
+<br>
+
+---
 ## **Elementos del diagrama de Casos de uso**
 | Elemento                            | Descripción     
 |---|---|
