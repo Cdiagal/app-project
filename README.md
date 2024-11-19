@@ -79,7 +79,7 @@ TaskYourself es una aplicación intuitiva y eficiente diseñada para ayudar a lo
 | → **Sistema** | - **Almacena datos:** almacena toda la información de datos, actividad y detalles de todo el movimiento que se registra en la app. <br> - **Actualizar las tareas:** actualiza en todo momento las tareas de los usuarios. <br> - **Sincroniza datos:** el sistema detecta modificaciones o creaciones y automáticamente sincroniza toda la información. <br> - **Estadísticas:** genera estadísticas a partir de la información almacenada del usuario. <br> - **Envía notificaciones:** envía notificaciones personalizadas a los usuarios.  | 
 |||
 
-aaaa
+
 
 
 
