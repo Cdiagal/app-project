@@ -1,4 +1,4 @@
-package main.java.es.cdiagal.tastkyourself.model;
+package main.java.es.cdiagal.taskyourself.model;
 
 public class ProductoModelo {
     

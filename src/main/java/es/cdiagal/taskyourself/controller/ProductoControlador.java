@@ -1,4 +1,4 @@
-package main.java.es.cdiagal.tastkyourself.controller;
+package main.java.es.cdiagal.taskyourself.controller;
 
 import es.cdiagal.tastkyourself.view.ProductoView;
 
