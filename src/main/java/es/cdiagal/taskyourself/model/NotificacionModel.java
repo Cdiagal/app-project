@@ -16,7 +16,7 @@ import java.util.Objects;
 
 
 public class NotificacionModel {
-    private String id;
+    private String idNotificacion;
     private String destinatario;
     private String mensaje;
     private String tipo;
@@ -30,13 +30,13 @@ public class NotificacionModel {
     }
 
     //Constructor con el id de la Clase.
-    public NotificacionModel(String id){
-        this.id = id;
+    public NotificacionModel(String idNotificacion){
+        this.idNotificacion = idNotificacion;
     }
 
     //Contructor con las propiedades de la clase.
-    public NotificacionModel(String id, String destinatario, String mensaje, String tipo, boolean confirmaEnviada, LocalDateTime fechaCreacion){
-        this.id = id;
+    public NotificacionModel(String idNotificacion, String destinatario, String mensaje, String tipo, boolean confirmaEnviada, LocalDateTime fechaCreacion){
+        this.idNotificacion = idNotificacion;
         this.destinatario = destinatario;
         this.mensaje = mensaje;
         this.tipo = tipo;
@@ -48,11 +48,11 @@ public class NotificacionModel {
     //Getters y setters.
 
     public String getId() {
-        return this.id;
+        return this.idNotificacion;
     }
 
     public void setId(String id) {
-        this.id = id;
+        this.idNotificacion = idNotificacion;
     }
 
     public String getDestinatario() {
@@ -105,12 +105,12 @@ public class NotificacionModel {
             return false;
         }
         NotificacionModel notificacionModel = (NotificacionModel) o;
-        return Objects.equals(id, notificacionModel.id) ;
+        return Objects.equals(idNotificacion, notificacionModel.idNotificacion) ;
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, destinatario, tipo, confirmaEnviada);
+        return Objects.hash(idNotificacion, destinatario, tipo, confirmaEnviada);
     }
 
 }
