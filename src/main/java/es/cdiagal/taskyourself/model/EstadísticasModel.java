@@ -1,8 +1,19 @@
 package es.cdiagal.taskyourself.model;
 import java.util.Objects;
 
+/**
+ * Clase EstadisticasModel.
+ * 
+ * Encargada de generar y almacenar estadísticas relacionadas con el
+ * uso de la aplicación. Los datos incluyen el total de usuarios, tareas
+ * completadas y tareas totales.
+ * 
+ * @author cdiagal
+ * @version 1.0.0
+ */
+
 public class EstadísticasModel {
-    private String idTarea;
+    private String idEstadistica;
     private int numUsuarios;
     private int numTareas;
     private int numTareasCompletadas;
@@ -16,12 +27,12 @@ public class EstadísticasModel {
 
     //Constructor con el atributo único de la clase.
     public EstadísticasModel(String idTarea){
-        this.idTarea = idTarea;
+        this.idEstadistica = idTarea;
     }
 
     //Constructor con todos los atributos de la clase.
     public EstadísticasModel(String idTarea, int numUsuarios, int numTareas, int numTareasCompletadas, int numTareasPenditentes, int numTareasModificadas){
-        this.idTarea = idTarea;
+        this.idEstadistica = idTarea;
         this.numUsuarios = numUsuarios;
         this.numTareas = numTareas;
         this.numTareasCompletadas = numTareasCompletadas;
@@ -33,11 +44,11 @@ public class EstadísticasModel {
 
 
     public String getIdTarea() {
-        return this.idTarea;
+        return this.idEstadistica;
     }
 
     public void setIdTarea(String idTarea) {
-        this.idTarea = idTarea;
+        this.idEstadistica = idTarea;
     }
 
     public int getNumUsuarios() {
@@ -104,12 +115,12 @@ public class EstadísticasModel {
             return false;
         }
         EstadísticasModel estadísticasModel = (EstadísticasModel) o;
-        return Objects.equals(idTarea, estadísticasModel.idTarea);
+        return Objects.equals(idEstadistica, estadísticasModel.idEstadistica);
     }
     
     @Override
     public int hashCode() {
-        return Objects.hash(idTarea, numUsuarios, numTareas, numTareasCompletadas, numTareasPenditentes, numTareasModificadas);
+        return Objects.hash(idEstadistica, numUsuarios, numTareas, numTareasCompletadas, numTareasPenditentes, numTareasModificadas);
     }
     
 

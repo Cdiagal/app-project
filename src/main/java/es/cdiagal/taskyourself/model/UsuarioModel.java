@@ -1,11 +1,24 @@
 package es.cdiagal.taskyourself.model;
 import java.util.Objects;
+import java.util.ArrayList;
+import java.util.List;
+/**
+ * Clase UsuarioModel
+ * 
+ * Representa a un usuario genérico de la aplicación. Almacena información
+ * como su ID, nombre, correo electrónico y contraseña. 
+ * 
+ * @author cdiagal
+ * @version 1.0.0
+ */
 
 public class UsuarioModel {
     private String id;
     private String nombre;
     private String email;
     private String password;
+    private List<String> tareasPendientes;
+    private List<String> tareasCompletadas;
 
     //Constructor vacío de la clase.
     public UsuarioModel (){
@@ -23,9 +36,12 @@ public class UsuarioModel {
         this.nombre = nombre;
         this.email = email;
         this.password = password;
+        this.tareasPendientes = new ArrayList<>();
+        this.tareasCompletadas = new ArrayList<>();
     }
 
     //Getters y setters de la clase.
+
 
 
     public String getId() {
@@ -60,6 +76,23 @@ public class UsuarioModel {
         this.password = password;
     }
 
+    public List<String> getTareasPendientes() {
+        return this.tareasPendientes;
+    }
+
+    public void setTareasPendientes(List<String> tareasPendientes) {
+        this.tareasPendientes = tareasPendientes;
+    }
+
+    public List<String> getTareasCompletadas() {
+        return this.tareasCompletadas;
+    }
+
+    public void setTareasCompletadas(List<String> tareasCompletadas) {
+        this.tareasCompletadas = tareasCompletadas;
+    }
+    
+
     //ToString() y equals().
 
 
@@ -70,6 +103,8 @@ public class UsuarioModel {
             ", nombre='" + getNombre() + "'" +
             ", email='" + getEmail() + "'" +
             ", password='" + getPassword() + "'" +
+            ", tareasPendientes='" + getTareasPendientes() + "'" +
+            ", tareasCompletadas='" + getTareasCompletadas() + "'" +
             "}";
     }
 
@@ -87,8 +122,8 @@ public class UsuarioModel {
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, nombre, email, password);
+        return Objects.hash(id, nombre, email, password, tareasPendientes, tareasCompletadas);
     }
-    
+   
 
 }

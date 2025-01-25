@@ -1,6 +1,17 @@
 package es.cdiagal.taskyourself.model;
 import java.util.Objects;
 
+/**
+ * Clase AdministradorModel.
+ * 
+ * Subclase de UsuarioModel que representa a un administrador del sistema.
+ * Además de los atributos de un usuario genérico, contiene un nivel de permisos
+ * que define su capacidad administrativa dentro de la aplicación.
+ * 
+ * @author cdiagal
+ * @version 1.0.0
+ */
+
 public class AdministradorModel  extends UsuarioModel{
     private String permisos;
 
@@ -50,7 +61,7 @@ public class AdministradorModel  extends UsuarioModel{
 
     @Override
     public int hashCode() {
-        return super.hashCode()(permisos);
+        return Objects.hash(super.hashCode(),permisos);
     }
    
     
